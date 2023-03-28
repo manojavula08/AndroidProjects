@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bng"
+    android:layout_margin="15dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+
+    <EditText
+        android:id="@+id/et"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="25dp"
+        android:autofillHints=""
+        android:hint="enter the number"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/et"
+        android:gravity="center"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="39dp"
+        android:text="Go" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="404dp"
+        android:layout_below="@+id/btn"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="casual"
+        android:lineHeight="45dp"
+        android:paddingTop="15dp"
+        android:text="vsvs"
+        android:textColor="#000"
+        android:textSize="30sp"
+        android:textStyle="normal|bold" />
+
+
+</RelativeLayout>
